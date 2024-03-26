@@ -1,0 +1,79 @@
+
+.content-ct {
+	text-align: center;
+}
+
+.me-row {
+	padding: 30px 0;
+}
+.row-title {
+	font-weight: 400;
+}
+.feature {
+	padding: 20px;
+	margin-top: 30px;
+}
+.feature span {
+	font-size: 5em;
+    color: #016cc7;
+}
+
+.speaker .feature {
+	width: 31.333333%;
+	-webkit-transition: all 0.3s;
+  	-moz-transition: all 0.3s;
+  	transition: all 0.3s;
+  	margin-right: 20px;
+  	border: 3px solid #f6f6f6;
+    border-radius: 5px;
+}
+.speaker .feature:hover {
+    box-shadow: 3px 3px 10px #ccc;
+    transform: translateY(-10px);
+}
+
+@media (max-width: 767px) {
+    .hero-header {
+        padding: 3em 1em 1em 1em;
+        text-align: center;
+        max-height: 550px;
+    }
+    .speaker .feature {
+        width: 100%
+    }
+    .footer-credit {
+        text-align: center;
+        padding: 40px 20px;
+    }
+    ul.footer-menu {
+        text-align: center;
+        margin-top: 30px;
+    }
+}
+
+
+/* iPad Portrait */
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .hero-header {
+        padding: 3em 1em 1em 1em;
+        text-align: center;
+    }
+    .speaker .feature {
+        width: 49%;
+        margin-right: 7px;
+    }
+    ul.footer-menu {
+        margin-top: 0;
+    }
+}
+
+
+/* iPad Landscape */
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    .speaker .feature {
+        width: 49%;
+        margin-right: 9px;
+    }
+}
